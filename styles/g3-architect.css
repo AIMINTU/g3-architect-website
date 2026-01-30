@@ -194,10 +194,23 @@ main >section{
 .sponsors-companies img{
   filter: grayscale(100%);
 }
+footer{
+  max-width: 1440px;
+  text-align: center;
+  padding: 30px;
+  margin: 100px;
 
+
+ 
+}
+.f-text{
+  font-size: 20px;
+
+}
 
 /* Responsive media query */
 @media screen and (max-width:576px){
+
   .navbar, .nav-links, .teams, .features{
     flex-direction: column;
 
